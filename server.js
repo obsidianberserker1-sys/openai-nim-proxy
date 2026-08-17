@@ -34,8 +34,7 @@ const MODEL_MAPPING = {
 // === Added GLM-5.2 support ===
   'glm-5.2': 'z-ai/glm-5.2',
   'z-ai/glm-5.2': 'z-ai/glm-5.2',
-  'glm-5.2[1m]': 'z-ai/glm-5.2'
-};
+  'glm-5.2[1m]': 'z-ai/glm-5.2'};
 
 // Health check endpoint
 app.get('/health', (req, res) => {
