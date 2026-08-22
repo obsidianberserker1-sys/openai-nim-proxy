@@ -32,10 +32,15 @@ const MODEL_MAPPING = {
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
 
-  // DeepSeek V4 Flash 0731
+  // DeepSeek V4 Flash 0731 (currently Free Endpoint)
   'deepseek-v4-flash-0731': 'deepseek-ai/deepseek-v4-flash-0731',
   'deepseek-ai/deepseek-v4-flash-0731': 'deepseek-ai/deepseek-v4-flash-0731',
-  'deepseek-v4-flash': 'deepseek-ai/deepseek-v4-flash-0731'
+  'deepseek-v4-flash': 'deepseek-ai/deepseek-v4-flash-0731',
+
+  // Other working ones
+  'minimax-m3': 'minimaxai/minimax-m3',
+  'minimaxai/minimax-m3': 'minimaxai/minimax-m3',
+  'nemotron-lightning': 'nvidia/nemotron-3.5-lightning-30b-a3b'
 };
 
 // Health check endpoint
